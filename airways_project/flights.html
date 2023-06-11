@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Your Airways</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f8f8;
+      background-image: url("image (12).jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .header {
+      background-color: #3334;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .navbar {
+      background-color: #3334;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .navbar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: inline-block;
+    }
+
+    .navbar li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+
+    .navbar li a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .navbar li a:hover {
+      color: #666;
+    }
+
+    .page-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 50px;
+    }
+
+    .page-content h2 {
+      margin-top: 0;
+      font-size: 32px;
+      color: white;
+      text-align: center;
+    }
+
+    .card {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      padding: 10px;
+      margin-bottom: 40px;
+       display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    }
+
+
+  .card-image {
+    flex: 0 0 200px;
+    text-align: center;
+  }
+
+  .card-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .card-details {
+    flex: 1;
+    margin-left: 20px;
+  }
+
+    .card-title {
+      font-size: 24px;
+      color: #333;
+      margin-bottom: 50px;
+    }
+
+    .card-description {
+      color: #666;
+      margin-bottom: 100px;
+    }
+
+    .card-price {
+      font-size: 20px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+    
+    .card-button {
+      background-color: #333;
+      position: static;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out;
+    }
+
+    .card-button:hover {
+      background-color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <h1>Apex Airways</h1>
+  </header>
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="airways.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="flights.html">Flights</a></li>
+      <li><a href="booking.html">Booking</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="page-content">
+    <h2>Welcome to Apex Airways</h2>
+
+    <section id="booking">
+      <h2>Book Your Flight</h2>
+
+      <div class="card">
+        
+        <h3 class="card-title">Flight to New York</h3>
+        <p class="card-description">Embark on an unforgettable journey to New York, where you can explore famous attractions like Times Square, Central Park, and the Statue of Liberty.
+
+Experience the allure of the Big Apple with our flights to New York, offering convenience, comfort, and exceptional service throughout your journey.</p>
+        <p class="card-price">$500</p>
+        <button class="card-button">Book Now</button>
+        <div class="card-image">
+      <img src="new.jpg" alt="Flight Image 1">
+    </div>
+      </div>
+
+      <div class="card">
+        
+        <h3 class="card-title">Flight to Tokyo</h3>
+        <p class="card-description">Fly to Tokyo and witness the seamless harmony of ancient temples, futuristic skyscrapers, bustling markets, and the warm hospitality of its people, creating a truly mesmerizing travel experience.</p>
+        <p class="card-price">$600</p>
+        <button class="card-button">Book Now</button>
+        <div class="card-image">
+      <img src="tokyo.jpg" alt="Flight Image 1">
+    </div>
+      </div>
+
+      <div class="card">
+       
+        <h3 class="card-title">Flight to Paris</h3>
+        <p class="card-description">Fly to the enchanting city of Paris and experience its timeless beauty and romantic ambiance. Discover iconic landmarks like the Eiffel Tower and Louvre Museum, indulge in delectable French cuisine, and immerse yourself in the city's rich art and culture</p>
+        <p class="card-price">$700</p>
+        <button class="card-button">Book Now</button>
+         <div class="card-image">
+      <img src="paris.jpg" alt="Flight Image 1">
+    </div>
+      </div>
+    </section>
+
+    
+  </section>
+</body>
+</html>

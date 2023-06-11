@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Apex Airways</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f8f8;
+      background-image: url("image (6).jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .header {
+      background-color: #3334;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .navbar {
+      background-color: #3334;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .navbar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: inline-block;
+    }
+
+    .navbar li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+
+    .navbar li a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .navbar li a:hover {
+      color: #666;
+    }
+
+    .page-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 50px;
+    }
+
+    .page-content h2 {
+      margin-top: 0;
+      font-size: 32px;
+      color: white;
+      text-align: center;
+    }
+
+    .contact-form {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .contact-form form {
+      background-color: #f8f8f8;
+      padding: 20px;
+      border-radius: 8px;
+
+    }
+
+    .contact-form .form-group {
+      margin-bottom: 20px;
+    }
+
+    .contact-form label {
+      display: block;
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 5px;
+      color: #333;
+    }
+
+    .contact-form input[type="text"],
+    .contact-form input[type="email"],
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+
+    .contact-form textarea {
+      height: 120px;
+    }
+
+    .contact-form button.submit-button {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out;
+    }
+
+    .contact-form button.submit-button:hover {
+      background-color: #666;
+    }
+
+    .social-media {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .social-media h3 {
+      font-size: 24px;
+      color: white;
+      margin-bottom: 10px;
+    }
+
+    .social-media .social-icons {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    .social-media .social-icons li {
+      margin-right: 10px;
+    }
+
+    .social-media .social-icons li:last-child {
+      margin-right: 0;
+    }
+  .social-media .social-icons a {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    .social-media .social-icons img {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+    }
+
+    .social-media .social-icons a:hover {
+      background-color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <h1>Apex Airways</h1>
+  </header>
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="airways.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="flights.html">Flights</a></li>
+      <li><a href="booking.html">Booking</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="page-content">
+    <h2>Welcome to Your Airways</h2>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <div class="contact-form">
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button class="submit-button" type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="social-media" class="social-media">
+      <h3>Follow Us on Social Media</h3>
+     <ul class="social-icons">
+      <li><a href="#"><img src="face.png" alt="Facebook"></a></li>
+      <li><a href="#"><img src="twitter.png" alt="Twitter"></a></li>
+      <li><a href="#"><img src="insta.png" alt="Instagram"></a></li>
+      <li><a href="#"><img src="in.png" alt="LinkedIn"></a></li>
+    </ul>
+  </section>
+  </section>
+</body>
+</html>
